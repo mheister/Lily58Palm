@@ -9,7 +9,7 @@ The keyboard was intended as a backup solution in case my Keyboardio Model 01 ev
 or gets left at work. As there is not yet a case or plate for this I recommend using PCB
 mount switches.
 
-- [PCB](https://github.com/mheister/Lily58Palm/tree/master/Pro/PCB)
+- [PCB](https://github.com/mheister/Lily58Palm/tree/master/PCB)
 - Case design has not yet been adapted
 
 ![lily58pad](https://user-images.githubusercontent.com/12217662/165830137-303704ae-e372-44e3-b82b-3f3f7fb77a83.jpg)
