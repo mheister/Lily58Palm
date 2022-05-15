@@ -24,24 +24,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     /* QWERTY
      * ,-----------------------------------------.                    ,-----------------------------------------.
-     * | `ESC |   1  |   2  |   3  |   4  |   5  |                    |   6  |   7  |   8  |   9  |   0  |  `   |
+     * | `ESC |   1  |   2  |   3  |   4  |   5  |                    |   6  |   7  |   8  |   9  |   0  |  _   |
      * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
-     * | INS  |   Q  |   W  |   E  |   R  |   T  |                    |   Y  |   U  |   I  |   O  |   P  |  =   |
+     * | `    |   Q  |   W  |   E  |   R  |   T  |                    |   Y  |   U  |   I  |   O  |   P  |  =   |
      * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
      * | PGUP |   A  |   S  |   D  |   F  |   G  |-------.    ,-------|   H  |   J  |   K  |   L  |   ;  |  '   |
      * |------+------+------+------+------+------|  Tab  |    | Enter |------+------+------+------+------+------|
      * | PGDN |   Z  |   X  |   C  |   V  |   B  |-------|    |-------|   N  |   M  |   ,  |   .  |   /  |  -   |
      * `-----------------------------------------/       /     \      \-----------------------------------------'
-     *                     [FN] |      |      | / <---  /       \Space \  | AltGr|      |  [FN]
-     *                          |      |      |/       /         \      \ |      |      |
+     *                     [FN] | CTRL | Del  | / <---  /       \Space \  | AltGr|      |  [FN]
+     *                          |      | [SFT]|/       /         \      \ |      |      |
      *                          `---------------------'           '------''-------------'
      */
     [_QWERTY] = LAYOUT(                                                                                                                                  //
-        GRAVE_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_GRV,                                                                   //
-        KC_INS, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_EQUAL,                                                                    //
+        GRAVE_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_UNDS,                                                                  //
+        KC_GRV, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_EQUAL,                                                                    //
         KC_PGUP, LGUI_T(KC_A), LALT_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F), KC_G, KC_H, RCTL_T(KC_J), RSFT_T(KC_K), LALT_T(KC_L), RGUI_T(KC_SCLN), KC_QUOT, //
         KC_PGDN, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_TAB, KC_ENT, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_MINUS,                                           //
-        MO(_FN), _______, _______, KC_BACKSPACE, KC_SPC, KC_RALT, _______, MO(_FN)),
+        MO(_FN), KC_LCTL, LSFT_T(KC_DEL), KC_BACKSPACE, KC_SPC, KC_RALT, _______, MO(_FN)),
 
     /* FN
      * ,-----------------------------------------.                    ,-----------------------------------------.
@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [_FN] = LAYOUT(                                                                                                                                //
         _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,                                                    //
-        _______, _______, KC_MS_UP, KC_SPC, KC_MS_BTN2, CKC_OLED_ONOFF, _______, KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC, KC_F12,                      //
+        _______, _______, KC_MS_UP, KC_SPC, KC_MS_BTN2, CKC_OLED_ONOFF, _______, KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC, KC_F12,                       //
         KC_HOME, KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT, KC_MS_BTN1, CKC_OLED_BLUP, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_SPC, KC_TILD,               //
         KC_END, _______, KC_INSERT, _______, KC_MS_BTN3, CKC_OLED_BLDOWN, _______, _______, KC_PERC, KC_UNDS, KC_MINUS, KC_PLUS, KC_BSLS, KC_PIPE, //
         KC_TRNS, _______, _______, KC_SPC, KC_BACKSPACE, _______, _______, KC_TRNS),
