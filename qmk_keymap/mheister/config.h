@@ -30,3 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // OLED
 #define OLED_BRIGHTNESS 100
+
+// Mouse Keys
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 11
+#define MOUSEKEY_TIME_TO_MAX 50
