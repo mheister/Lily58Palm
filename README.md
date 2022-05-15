@@ -15,4 +15,4 @@ mount switches.
   [qmk_keymap/mheister](https://github.com/mheister/Lily58Palm/tree/master/qmk_keymap/mheister)
   for an example keymap
 
-![lily58pad](https://user-images.githubusercontent.com/12217662/165830137-303704ae-e372-44e3-b82b-3f3f7fb77a83.jpg)
+![lily58pad](https://user-images.githubusercontent.com/12217662/168480456-2f4b09eb-8cdd-456a-8a07-1064c11cc272.jpg)
