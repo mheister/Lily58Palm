@@ -6,11 +6,10 @@ Modified Lily58 Pro PCB with
 - outer columns staggered lower.
 
 The keyboard was intended as a backup solution in case my Keyboardio Model 01 ever breaks,
-or gets left at work. As there is not yet a case or plate for this I recommend using PCB
-mount switches.
+or gets left at work.
 
 - [PCB](https://github.com/mheister/Lily58Palm/tree/master/PCB)
-- Case design has not yet been adapted
+- [Front Plate](https://github.com/mheister/Lily58Palm/tree/master/Case)
 - Uses the [qmk_firmware](https://github.com/qmk/qmk_firmware) for Lily58, see
   [qmk_keymap/mheister](https://github.com/mheister/Lily58Palm/tree/master/qmk_keymap/mheister)
   for an example keymap
