@@ -14,4 +14,4 @@ or gets left at work.
   [qmk_keymap/mheister](https://github.com/mheister/Lily58Palm/tree/master/qmk_keymap/mheister)
   for an example keymap
 
-![lily58pad](https://user-images.githubusercontent.com/12217662/168480456-2f4b09eb-8cdd-456a-8a07-1064c11cc272.jpg)
+![lily58pad](https://user-images.githubusercontent.com/12217662/234102010-2ba5a484-b1d9-4bd6-a9bb-64a0f339e906.jpg)
